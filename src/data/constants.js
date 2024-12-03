@@ -10,7 +10,7 @@ export const Bio = {
     "Soy una persona motivada y versátil, siempre dispuesta a asumir nuevos desafíos. Con una pasión por el aprendizaje, estoy comprometido/a con ofrecer resultados de alta calidad. Con una actitud positiva y una mentalidad de crecimiento, estoy listo/a para hacer una contribución significativa y alcanzar grandes logros.",
   github: "https://github.com/FlushaM",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1EiW7QZZjYBqQzGuzpP5J06gdkWCt-gde/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/matias-rojas-romero-1787a0267/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/matiasrojasdev/",
@@ -192,86 +192,62 @@ export const projects = [
   {
     id: 9,
     title: "Inspirando Mujeres en Minería",
-    date: "Jun 2023 - Jul 2023",
+    date: "Agosto 2024 - Diciembre 2024",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Inspirando Mujeres en Minería es un sitio web diseñado para inspirar y empoderar a mujeres interesadas en el rubro de la minería o que actualmente forman parte de esta industria. Este proyecto tiene como objetivo promocionar perfiles de mujeres destacadas, brindando visibilidad a sus logros y fomentando la participación femenina en la minería. \nLa web fue desarrollada utilizando tecnologías como Django, CSS, React, HTML y JavaScript.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://raw.githubusercontent.com/FlushaM/imagenes-matias/main/webMujeres.PNG",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Django",
+      "CSS",
+      "React",
+      "HTML",
+      "JavaScript",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/FlushaM/Inovacion",
+    webapp: "Próximamente",
   },
   {
     id: 0,
-    title: "Gimmnasio Intranet",
-    date: "Apr 2023 - May 2023",
+    title: "Gimnasio Intranet",
+    date: "Abril 2023 - Mayo 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Esta aplicación es una intranet diseñada para gestionar el ingreso y salida de clientes en un gimnasio. Además, incluye un panel administrativo (dashboard) que permite al personal administrar información clave y realizar un seguimiento detallado de cada cliente, incluyendo su progreso y actividades en el gimnasio. \nLa aplicación fue desarrollada utilizando tecnologías modernas y garantiza una experiencia de usuario eficiente y amigable.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://raw.githubusercontent.com/FlushaM/imagenes-matias/main/gym.png",
+    tags: ["AWS", "Django", "CSS", "HTML", "Bootstrap"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-
+    github: "https://github.com/NanoBrs/GoldenGym",
+    webapp: "Próximamente",
   },
 
   {
     id: 2,
-    title: "Analisis Predictivo NBA",
-    date: "Jan 2023 - Mar 2023",
+    title: "Análisis Predictivo NBA",
+    date: "Enero 2023 - Marzo 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Este proyecto consistió en la creación de un dataset que recopila estadísticas completas de la NBA desde el año 2000 hasta 2022. El objetivo fue desarrollar un análisis predictivo para entender los factores clave que determinan por qué los equipos ganan y qué les hace tener un mayor rendimiento. Utilizando Python, Pandas y Google Colab, se procesaron los datos, se realizaron análisis avanzados y se identificaron patrones significativos.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://github.com/FlushaM/imagenes-matias/blob/main/nba.PNG?raw=true", // Cambia esto por una imagen relevante
+    tags: ["Python", "Pandas", "Google Colab"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
- 
-  },
-
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-
-  {
-    id: 6,
-    title: "Sistema Hotelero",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-
+    github: "https://github.com/FlushaM/NBA-Analysis", // Cambia esto si tienes un repositorio en GitHub
+    webapp: "Próximamente",
+},
+{
+  id: 3,
+  title: "App de Búsqueda de Gimnasios",
+  date: "Febrero 2024 - Marzo 2024",
+  description:
+    "Esta aplicación móvil permite a los usuarios buscar gimnasios cercanos según su ubicación actual. La app muestra información detallada de cada gimnasio, como planes de pago, tipos de máquinas disponibles, horarios y servicios adicionales. Diseñada para mejorar la experiencia de los usuarios interesados en encontrar un gimnasio adecuado de forma rápida y eficiente. Fue desarrollada utilizando Java, Android Studio y Kotlin, ofreciendo una interfaz intuitiva y un rendimiento optimizado.",
+  image:
+    "https://github.com/FlushaM/imagenes-matias/blob/main/gymapp.jpg?raw=true", // Cambia esto si tienes una imagen relevante
+  tags: ["Java", "Android Studio", "Kotlin"],
+  category: "app",
+  github: "https://github.com/FlushaM/gym-finder", // Cambia esto si tienes un repositorio en GitHub
+  webapp: "No aplica", // Al ser una app móvil, este campo puede quedarse como "No aplica"
+},
 
 ];
 
