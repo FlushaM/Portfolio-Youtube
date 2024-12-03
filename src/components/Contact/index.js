@@ -144,22 +144,22 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Title>Contacto</Title>
+        <Desc>¡No dudes en contactarme para cualquier pregunta u oportunidad!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>Mi Email 🚀</ContactTitle>
+          <ContactInput placeholder="Tu Correo" name="from_email" />
+          <ContactInput placeholder="Tu Nombre" name="from_name" />
+          <ContactInput placeholder="Asunto" name="subject" />
+          <ContactInputMessage placeholder="Mensaje" rows="4" name="message" />
+          <ContactButton type="Enviar" value="Send" />
         </ContactForm>
         <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
+          message="Email enviado Correctamente!"
+          severity="completado"
         />
       </Wrapper>
     </Container>
